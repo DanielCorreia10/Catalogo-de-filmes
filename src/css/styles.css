@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titulo{
+    background: cornflowerblue;
+    color: white;
+    padding: 10px;
+}
+
+form{
+
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    display: flex;
+
+}
+
+form input#pesquisa{
+
+    padding:5px;
+    border: none;
+    outline: none;
+    flex: 1;
+
+}
+
+form button{
+    padding: 5px 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form button:hover{
+  
+    background-color: rgb(5, 69, 187);
+}
+
+.lista{
+
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lista .item{
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.lista .item:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.lista .item img{
+    
+    width: 100%;
+
+}
